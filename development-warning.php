@@ -4,8 +4,8 @@
  * Plugin URI:  http://www.josheaton.org
  * Description: Warns you if you are currently in your development environment
  * Author:      Josh Eaton
- * Version:     0.1
  * Author URI:  http://www.josheaton.org
+ * Version:     0.1
  */
 
 /* Only add the items if local dev is defined */
@@ -37,9 +37,6 @@ function dew_top_of_page_dev_warning() {
 }
 
 /* Style the admin-bar warning */
-/**
- * @todo: Change the styles to also work in the Admin
- */
 function dew_style_admin_bar_warning() {
 ?>
 <style>
@@ -47,9 +44,8 @@ function dew_style_admin_bar_warning() {
   color: red;
   font-size: 1.1em;
   font-weight: bold;
+  cursor: default;
 }
 </style>
 <?php
 }
-
-?>
